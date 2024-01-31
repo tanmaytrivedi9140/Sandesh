@@ -1,0 +1,64 @@
+//   populate meaning is that if we dont use populate then result is
+//   {
+//     {
+//     "_id": "659456539429703a03512b38",
+//     "chatName": "updated first chat name",
+//     "isGroupChat": true,
+//     "users": [
+//         "6591bca55876819e50f2fa87",
+//         "659260dc4da18272075b086f",
+//         "65904707b5e9d028b9fbc869"
+//     ],
+//     "groupAdmin": "65904707b5e9d028b9fbc869",
+//     "createdAt": "2024-01-02T18:30:43.762Z",
+//     "updatedAt": "2024-01-02T18:48:46.697Z",
+//     "__v": 0
+// }
+  // }
+on using populate result is 
+{
+    "_id": "659456539429703a03512b38",
+    "chatName": "updated first  name",
+    "isGroupChat": true,
+    "users": [
+        {
+            "_id": "6591bca55876819e50f2fa87",
+            "name": "ram",
+            "email": "ram@gmail.com",
+            "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+            "createdAt": "2023-12-31T19:10:29.829Z",
+            "updatedAt": "2023-12-31T19:10:29.829Z",
+            "__v": 0
+        },
+        {
+            "_id": "659260dc4da18272075b086f",
+            "name": "ganesh",
+            "email": "ganesh@gmail.com",
+            "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+            "createdAt": "2024-01-01T06:51:08.895Z",
+            "updatedAt": "2024-01-01T06:51:08.895Z",
+            "__v": 0
+        },
+        {
+            "_id": "65904707b5e9d028b9fbc869",
+            "name": "tanmay",
+            "email": "tanmay7754@gmail.com",
+            "pic": "ghdkkdhdjdndj",
+            "createdAt": "2023-12-30T16:36:23.028Z",
+            "updatedAt": "2023-12-30T16:36:23.028Z",
+            "__v": 0
+        }
+    ],
+    "groupAdmin": {
+        "_id": "65904707b5e9d028b9fbc869",
+        "name": "tanmay",
+        "email": "tanmay7754@gmail.com",
+        "pic": "ghdkkdhdjdndj",
+        "createdAt": "2023-12-30T16:36:23.028Z",
+        "updatedAt": "2023-12-30T16:36:23.028Z",
+        "__v": 0
+    },
+    "createdAt": "2024-01-02T18:30:43.762Z",
+    "updatedAt": "2024-01-02T18:51:34.536Z",
+    "__v": 0
+}
