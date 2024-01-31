@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000', // Your backend server address
+        target: 'https://sandesh-backend-deploy.onrender.com', // Your backend server address
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
